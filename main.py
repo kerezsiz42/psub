@@ -24,7 +24,6 @@ class Client:
 
 
 channels_to_clients: Dict[str, List[Client]] = dict()
-channel_lock: List[str] = list()
 
 
 def is_subscribed(channel: str, client: Client) -> bool:
